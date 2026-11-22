@@ -60,7 +60,7 @@ dns:
     - 208.67.220.220
 
 proxies:
-  - name: "@DeltaKroneckerGithub_1063"
+  - name: "@DeltaKroneckerGithub_1767"
     type: trojan
     server: "127.0.0.1"
     port: 40443
@@ -73,20 +73,7 @@ proxies:
       path: "/TELEGRAM-@NUFiLTER-TELEGRAM-@NUFiLTER-TELEGRAM-@NUFiLTER-TELEGRAM-@NUFiLTER-TELEGRAM-@NUFiLTER-TELEGRAM-@NUFiLTER-TELEGRAM-@NUFiLTER-TELEGRAM-@NUFiLTER"
       headers:
         Host: "copy_az_channel_NUFiLTER_10i.global.ssl.fastly.net."
-  - name: "@DeltaKroneckerGithub_1096"
-    type: trojan
-    server: "127.0.0.1"
-    port: 40443
-    password: "auto"
-    sni: "azadnet-5o5.pages.dev"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/azadnet-5o5.pages.dev/?ed=2560"
-      headers:
-        Host: "azadnet-5o5.pages.dev"
-  - name: "@DeltaKroneckerGithub_1130"
+  - name: "@DeltaKroneckerGithub_1781"
     type: trojan
     server: "127.0.0.1"
     port: 40443
@@ -99,17 +86,6 @@ proxies:
       path: "/TELEGRAM-@NUFiLTER-TELEGRAM-@NUFiLTER-TELEGRAM-@NUFiLTER-TELEGRAM-@NUFiLTER-TELEGRAM-@NUFiLTER-TELEGRAM-@NUFiLTER-TELEGRAM-@NUFiLTER-TELEGRAM-@NUFiLTER"
       headers:
         Host: "copy_az_channel_NUFiLTER_17i.global.ssl.fastly.net."
-  - name: "@DeltaKroneckerGithub_1579"
-    type: trojan
-    server: "127.0.0.1"
-    port: 40443
-    password: "C910E5F2-A662-7CFB-B5A6-5D39DB212CBA"
-    sni: "muddy-frost-4e2d.vpnetwork3567.workers.dev"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/"
 
 proxy-groups:
   - name: "PROXY"
@@ -126,10 +102,8 @@ proxy-groups:
     tolerance: 30
     lazy: true
     proxies:
-      - "@DeltaKroneckerGithub_1063"
-      - "@DeltaKroneckerGithub_1096"
-      - "@DeltaKroneckerGithub_1130"
-      - "@DeltaKroneckerGithub_1579"
+      - "@DeltaKroneckerGithub_1767"
+      - "@DeltaKroneckerGithub_1781"
 
 
   - name: "Load Balance"
@@ -138,10 +112,8 @@ proxy-groups:
     url: https://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - "@DeltaKroneckerGithub_1063"
-      - "@DeltaKroneckerGithub_1096"
-      - "@DeltaKroneckerGithub_1130"
-      - "@DeltaKroneckerGithub_1579"
+      - "@DeltaKroneckerGithub_1767"
+      - "@DeltaKroneckerGithub_1781"
 
 rules:
   - MATCH,PROXY

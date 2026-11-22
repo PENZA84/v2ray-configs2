@@ -62,19 +62,35 @@ dns:
 proxies:
   - name: "🇪🇪_1"
     type: vless
-    server: "191.217.238.38"
-    port: 443
-    uuid: "097eae28-f0e7-4b18-bce2-16cf7d9deb05"
+    server: "94.159.98.82"
+    port: 2053
+    uuid: "fbe22815-0718-4eae-816f-e91c67d15b54"
     udp: true
     tls: true
     skip-cert-verify: true
-    servername: "www.bmw.de"
+    servername: "94.159.98.82"
     client-fingerprint: "firefox"
-    reality-opts:
-      public-key: "vq0Fi871QaDVmxY7F0XWByt9muX3-16E31XfHWZj9D8"
-      short-id: "28138197d12e8e38"
     flow: "xtls-rprx-vision"
   - name: "🇪🇪_2"
+    type: vless
+    server: "132.243.66.159"
+    port: 443
+    uuid: "cda0862a-0f87-4be9-8ed8-1d0c9e382839"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "04535dt.us8.h1clayd.click"
+    client-fingerprint: "firefox"
+    reality-opts:
+      public-key: "UoS8qZ74hP_ECcncCz55lzvlcVss3R7VA0WYZE0YQCY"
+      short-id: "ba2a3dce62b99092"
+  - name: "🇪🇪_3"
+    type: vless
+    server: "45.86.60.174"
+    port: 16443
+    uuid: "13e541f3-d09d-4633-89df-8513db0ced20"
+    udp: true
+  - name: "🇪🇪_4"
     type: vless
     server: "77.83.198.104"
     port: 8443
@@ -88,21 +104,21 @@ proxies:
       public-key: "6FI4VM9WlQEGVjyCvLDQLz1jOkrzzhtfGl9eQTBn6HU"
       short-id: "f8d0271b4b5f9efc"
     flow: "xtls-rprx-vision"
-  - name: "🇪🇪_3"
-    type: vless
-    server: "45.86.60.174"
-    port: 16443
-    uuid: "13e541f3-d09d-4633-89df-8513db0ced20"
-    udp: true
-  - name: "🇪🇪_4"
-    type: trojan
-    server: "ee-1.tr202604.com"
-    port: 443
-    password: "pjqRC5wfEFhYTyiaKF"
-    sni: "ee-1.tr202604.com"
-    skip-cert-verify: true
-    udp: true
   - name: "🇪🇪_5"
+    type: vless
+    server: "191.217.238.38"
+    port: 443
+    uuid: "097eae28-f0e7-4b18-bce2-16cf7d9deb05"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "www.bmw.de"
+    client-fingerprint: "firefox"
+    reality-opts:
+      public-key: "vq0Fi871QaDVmxY7F0XWByt9muX3-16E31XfHWZj9D8"
+      short-id: "28138197d12e8e38"
+    flow: "xtls-rprx-vision"
+  - name: "🇪🇪_6"
     type: trojan
     server: "45.139.194.66"
     port: 443
@@ -110,7 +126,7 @@ proxies:
     sni: "45.139.194.66"
     skip-cert-verify: true
     udp: true
-  - name: "🇪🇪_6"
+  - name: "🇪🇪_7"
     type: trojan
     server: "checkout.salu.lalibobi.online"
     port: 443
@@ -118,7 +134,15 @@ proxies:
     sni: "checkout.salu.lalibobi.online"
     skip-cert-verify: true
     udp: true
-  - name: "🇪🇪_7"
+  - name: "🇪🇪_8"
+    type: trojan
+    server: "ee-1.tr202604.com"
+    port: 443
+    password: "pjqRC5wfEFhYTyiaKF"
+    sni: "ee-1.tr202604.com"
+    skip-cert-verify: true
+    udp: true
+  - name: "🇪🇪_9"
     type: trojan
     server: "ee1.nngo.cc"
     port: 443
@@ -126,27 +150,11 @@ proxies:
     sni: "ee1.nngo.cc"
     skip-cert-verify: true
     udp: true
-  - name: "🇪🇪_8"
-    type: trojan
-    server: "45.139.194.80"
-    port: 443
-    password: "GUGm7DHtpSx7SuPyUD"
-    sni: "45.139.194.80"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇪🇪_9"
-    type: trojan
-    server: "checkout.aava.lalibobi.online"
-    port: 443
-    password: "qjQdBgnCuhLVLxYKyBrEWHYtWJYtBjpS"
-    sni: "checkout.aava.lalibobi.online"
-    skip-cert-verify: true
-    udp: true
   - name: "🇪🇪_10"
     type: trojan
     server: "ee-1.kamediorg.com"
     port: 443
-    password: "GUGm7DHtpSx7SuPyUD"
+    password: "wQz5G4ybA9eC3BQDkd"
     sni: "ee-1.kamediorg.com"
     skip-cert-verify: true
     udp: true
@@ -160,10 +168,18 @@ proxies:
     udp: true
   - name: "🇪🇪_12"
     type: trojan
-    server: "ee-1.kamediorg.com"
+    server: "45.139.194.60"
     port: 443
-    password: "wQz5G4ybA9eC3BQDkd"
-    sni: "ee-1.kamediorg.com"
+    password: "pjqRC5wfEFhYTyiaKF"
+    sni: "ee-1.tr202604.com"
+    skip-cert-verify: true
+    udp: true
+  - name: "🇪🇪_13"
+    type: trojan
+    server: "checkout.aava.lalibobi.online"
+    port: 443
+    password: "qjQdBgnCuhLVLxYKyBrEWHYtWJYtBjpS"
+    sni: "checkout.aava.lalibobi.online"
     skip-cert-verify: true
     udp: true
 
@@ -194,6 +210,7 @@ proxy-groups:
       - "🇪🇪_10"
       - "🇪🇪_11"
       - "🇪🇪_12"
+      - "🇪🇪_13"
 
 
   - name: "Load Balance"
@@ -214,6 +231,7 @@ proxy-groups:
       - "🇪🇪_10"
       - "🇪🇪_11"
       - "🇪🇪_12"
+      - "🇪🇪_13"
 
 rules:
   - MATCH,PROXY

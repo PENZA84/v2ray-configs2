@@ -62,17 +62,18 @@ dns:
 proxies:
   - name: "🇺🇦_1"
     type: vless
-    server: "31.222.235.81"
-    port: 443
-    uuid: "d8b58872-cc25-4bb2-badb-b86399c075fa"
+    server: "194.54.80.37"
+    port: 8443
+    uuid: "9a597d68-6688-4046-bf24-a5a541e115e0"
     udp: true
     tls: true
     skip-cert-verify: true
-    servername: "www.cloudflare.com"
+    servername: "www.apple.com"
     client-fingerprint: "chrome"
     reality-opts:
-      public-key: "L9IllZt5vcjYVY_6rmCJ_9ypmJsBK8dSWkNVCStrZjk"
-      short-id: "d8b58872"
+      public-key: "6FI4VM9WlQEGVjyCvLDQLz1jOkrzzhtfGl9eQTBn6HU"
+      short-id: "f8d0271b4b5f9efc"
+    flow: "xtls-rprx-vision"
   - name: "🇺🇦_2"
     type: vless
     server: "netx.smrtai.top"
@@ -87,20 +88,6 @@ proxies:
       public-key: "L9IllZt5vcjYVY_6rmCJ_9ypmJsBK8dSWkNVCStrZjk"
       short-id: "d8b58872"
   - name: "🇺🇦_3"
-    type: vless
-    server: "194.54.80.37"
-    port: 8443
-    uuid: "9a597d68-6688-4046-bf24-a5a541e115e0"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "www.apple.com"
-    client-fingerprint: "chrome"
-    reality-opts:
-      public-key: "6FI4VM9WlQEGVjyCvLDQLz1jOkrzzhtfGl9eQTBn6HU"
-      short-id: "f8d0271b4b5f9efc"
-    flow: "xtls-rprx-vision"
-  - name: "🇺🇦_4"
     type: trojan
     server: "130.0.236.88"
     port: 443
@@ -108,7 +95,7 @@ proxies:
     sni: "ua.freeguard.org"
     skip-cert-verify: true
     udp: true
-  - name: "🇺🇦_5"
+  - name: "🇺🇦_4"
     type: trojan
     server: "173.242.51.189"
     port: 443
@@ -136,7 +123,6 @@ proxy-groups:
       - "🇺🇦_2"
       - "🇺🇦_3"
       - "🇺🇦_4"
-      - "🇺🇦_5"
 
 
   - name: "Load Balance"
@@ -149,7 +135,6 @@ proxy-groups:
       - "🇺🇦_2"
       - "🇺🇦_3"
       - "🇺🇦_4"
-      - "🇺🇦_5"
 
 rules:
   - MATCH,PROXY

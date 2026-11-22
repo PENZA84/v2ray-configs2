@@ -1,1 +1,2 @@
+vless://33330382-a046-428d-9e95-9aae8bd6b90e@47.81.32.116:443/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=www.amazon.com&fp=chrome&security=reality&pbk=P3MHfKzFZhV5TRjdEj2r43fUr24iijLqB_k7rbSR2Bg&sid=4446248c38c846e6&packetEncoding=xudp#%F0%9F%87%B9%F0%9F%87%AD
 vmess://eyJhZGQiOiIxMTkuNDYuNTEuNDUiLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6IiIsImlkIjoiOWI3NmJjMzEtMTdhNS00NDU0LTkzNGEtOGQ1ZmI2MDJjZDcwIiwibmV0Ijoibm9uZSIsInBhdGgiOiIiLCJwb3J0IjoiMzc1MTUiLCJwcyI6IvCfh7nwn4etIiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiIiLCJ2IjoiMiJ9

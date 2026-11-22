@@ -61,6 +61,20 @@ dns:
 
 proxies:
   - name: "🇹🇭_1"
+    type: vless
+    server: "47.81.32.116"
+    port: 443
+    uuid: "33330382-a046-428d-9e95-9aae8bd6b90e"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "www.amazon.com"
+    client-fingerprint: "chrome"
+    reality-opts:
+      public-key: "P3MHfKzFZhV5TRjdEj2r43fUr24iijLqB_k7rbSR2Bg"
+      short-id: "4446248c38c846e6"
+    flow: "xtls-rprx-vision"
+  - name: "🇹🇭_2"
     type: vmess
     server: "119.46.51.45"
     port: 37515
@@ -85,6 +99,7 @@ proxy-groups:
     lazy: true
     proxies:
       - "🇹🇭_1"
+      - "🇹🇭_2"
 
 
   - name: "Load Balance"
@@ -94,6 +109,7 @@ proxy-groups:
     interval: 300
     proxies:
       - "🇹🇭_1"
+      - "🇹🇭_2"
 
 rules:
   - MATCH,PROXY

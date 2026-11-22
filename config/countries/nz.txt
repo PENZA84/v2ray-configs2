@@ -1,0 +1,1 @@
+vless://ad45be81-9ba1-4a41-9326-f6ceb63eb79f@166.0.27.137:443/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=www.samsung.com&fp=chrome&security=reality&pbk=AMv7Xq2QzEDvAotwLRbqCk-WAxlQ7lxxYffMCvmNGhE&sid=5bcc25a95dcd415b&packetEncoding=xudp#%F0%9F%87%B3%F0%9F%87%BF

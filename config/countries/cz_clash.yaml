@@ -75,25 +75,18 @@ proxies:
       short-id: "7a7d19880a9ee786"
     flow: "xtls-rprx-vision"
   - name: "🇨🇿_2"
-    type: vless
-    server: "212.102.38.25"
-    port: 443
-    uuid: "b34a52cb-cd52-49a8-9362-b8e97c151d49"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "udemy.com"
-    client-fingerprint: "ios"
-    reality-opts:
-      public-key: "23cb4W9THzBKsrECsLh-A_FcKZfkAtUONoDze8-GnQE"
-      short-id: "e90360ec7cc61b20"
-    flow: "xtls-rprx-vision"
-  - name: "🇨🇿_3"
     type: ss
     server: "194.87.233.93"
     port: 46190
     cipher: "chacha20-ietf-poly1305"
     password: "2Ef8X21WALqK7H6N8A78j5WYtzZ999PP8rF8DaLsb5LLyDLQpf5dGVAjdA3mj1wudigKXTt5heYU9jmaBbfxXBJJAqhPHkxe"
+    udp: true
+  - name: "🇨🇿_3"
+    type: ss
+    server: "45.86.51.18"
+    port: 19999
+    cipher: "aes-256-gcm"
+    password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
     udp: true
   - name: "🇨🇿_4"
     type: ss
@@ -108,13 +101,6 @@ proxies:
     port: 46190
     cipher: "chacha20-ietf-poly1305"
     password: "2Ef8X21WALqK7H6N8A78j5WYtzZ999PP8rF8DaLsb5LLyDLQpf5dGVAjdA3mj1wudigKXTt5heYU9jmaBbfxXBJJAqhPHkxe"
-    udp: true
-  - name: "🇨🇿_6"
-    type: ss
-    server: "45.86.51.18"
-    port: 19999
-    cipher: "aes-256-gcm"
-    password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
     udp: true
 
 proxy-groups:
@@ -137,7 +123,6 @@ proxy-groups:
       - "🇨🇿_3"
       - "🇨🇿_4"
       - "🇨🇿_5"
-      - "🇨🇿_6"
 
 
   - name: "Load Balance"
@@ -151,7 +136,6 @@ proxy-groups:
       - "🇨🇿_3"
       - "🇨🇿_4"
       - "🇨🇿_5"
-      - "🇨🇿_6"
 
 rules:
   - MATCH,PROXY

@@ -62,19 +62,44 @@ dns:
 proxies:
   - name: "🇫🇮_1"
     type: vless
-    server: "193.233.199.30"
+    server: "65.109.252.58"
     port: 443
-    uuid: "a346c521-7a7f-452b-9356-a4893feb5982"
+    uuid: "2b696acb-1311-4ab7-b832-b376d29dca27"
     udp: true
     tls: true
     skip-cert-verify: true
-    servername: "fin3-r.bankai.party"
-    client-fingerprint: "qq"
-    reality-opts:
-      public-key: "FWitre1jinQR7qz5HQ0q2Q4Gg9xA9B0SyizCziN7Ch0"
-      short-id: ""
+    servername: "static.170.55.238.62.clients.your-server.de"
+    client-fingerprint: "firefox"
     flow: "xtls-rprx-vision"
   - name: "🇫🇮_2"
+    type: vless
+    server: "107.181.151.128"
+    port: 443
+    uuid: "b62e3646-b84d-443c-9c94-718b646502e0"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "www.foxsports.com"
+    client-fingerprint: "firefox"
+    reality-opts:
+      public-key: "zfsjt2A8ur0qHWIuCG7F9W4wZN3VTuL6fkTljC-9R0s"
+      short-id: "dda5f542d835"
+    flow: "xtls-rprx-vision"
+  - name: "🇫🇮_3"
+    type: vless
+    server: "213.176.92.168"
+    port: 10444
+    uuid: "ba52cc43-700d-4040-9444-29214c98e6e0"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "video.yandex.ru"
+    client-fingerprint: "chrome"
+    reality-opts:
+      public-key: "0oTkcqwLTUNLnSOP-VUWErmy6usAIg-biBE6ioZO-Vo"
+      short-id: "8debcf36f1cc69ff"
+    flow: "xtls-rprx-vision"
+  - name: "🇫🇮_4"
     type: vless
     server: "157.180.98.124"
     port: 49659
@@ -88,119 +113,157 @@ proxies:
       public-key: "bBVqro8tG6swTNoAkjwUzcu4Ew4N4VcyDHzADcGviCs"
       short-id: "81959fce"
     flow: "xtls-rprx-vision"
-  - name: "🇫🇮_3"
-    type: vless
-    server: "45.144.52.205"
-    port: 4243
-    uuid: "78a2cdf1-22e5-4ad7-bf89-91aa13d8b76c"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "fi.convert-cloud.guru"
-    client-fingerprint: "firefox"
-    reality-opts:
-      public-key: "vCHucdoD_m-TKVHS7si1akKgP6r4dvTLUX8y1TTZQG4"
-      short-id: ""
-    network: grpc
-    grpc-opts:
-      grpc-service-name: "ns"
-  - name: "🇫🇮_4"
-    type: vless
-    server: "169.40.34.53"
-    port: 443
-    uuid: "bc93a03d-13b5-000b-8ee7-d50c11459dab"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "brointelengence.com"
-    client-fingerprint: "firefox"
-    reality-opts:
-      public-key: "6VMgXXhZdJCiOG05EyK_zTHh00kpFGrZJeZIEPgqhjY"
-      short-id: "1c3e8241a8743df9"
-    flow: "xtls-rprx-vision"
   - name: "🇫🇮_5"
     type: vless
-    server: "2.27.13.243"
+    server: "196.196.204.147"
     port: 443
-    uuid: "4c7c8650-7cc9-40c8-8ee6-44d8190db079"
+    uuid: "f15a2e25-6859-4bcc-b4c4-a14bb8ae0fbb"
     udp: true
     tls: true
     skip-cert-verify: true
-    servername: "dl.google.com"
-    client-fingerprint: "chrome"
-    reality-opts:
-      public-key: "cAFMol_SqbGzF6IZSHdOS8taChr8dRe9n3RdxJp0QEQ"
-      short-id: ""
-    network: grpc
-    grpc-opts:
-      grpc-service-name: "grpc"
-  - name: "🇫🇮_6"
-    type: vless
-    server: "141.227.170.220"
-    port: 8443
-    uuid: "6c077993-952c-4318-9e93-89056a207a9b"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "apple.com"
+    servername: "4c980ft.fi15.h1clayd.click"
     client-fingerprint: "firefox"
     reality-opts:
-      public-key: "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc"
-      short-id: "6ba85179e30d4fc2"
+      public-key: "-ZN1kT3JlPFxu1E906JRqLAGoQQucSmL6xPiuAyasTk"
+      short-id: "597e1c279d224774"
+    flow: "xtls-rprx-vision"
+  - name: "🇫🇮_6"
+    type: vless
+    server: "107.181.151.128"
+    port: 443
+    uuid: "75113671-63e3-452d-87d3-261a37e8b472"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "www.mozilla.org"
+    client-fingerprint: "firefox"
+    reality-opts:
+      public-key: "zfsjt2A8ur0qHWIuCG7F9W4wZN3VTuL6fkTljC-9R0s"
+      short-id: "baf023e1026a"
     flow: "xtls-rprx-vision"
   - name: "🇫🇮_7"
     type: vless
-    server: "static.58.252.109.65.clients.your-server.de"
+    server: "107.181.151.128"
     port: 443
-    uuid: "2b696acb-1311-4ab7-b832-b376d29dca27"
+    uuid: "73cb2a0d-e2a9-4e61-a343-f2845e8c272e"
     udp: true
     tls: true
     skip-cert-verify: true
-    servername: "static.170.55.238.62.clients.your-server.de"
-    client-fingerprint: "chrome"
+    servername: "www.tradingview.com"
+    client-fingerprint: "firefox"
+    reality-opts:
+      public-key: "zfsjt2A8ur0qHWIuCG7F9W4wZN3VTuL6fkTljC-9R0s"
+      short-id: "611ceeb0ae78"
     flow: "xtls-rprx-vision"
   - name: "🇫🇮_8"
     type: vless
-    server: "144.31.90.152"
+    server: "4c980ft.fi15.h1clayd.click"
     port: 443
-    uuid: "53d95125-a38b-4a51-8155-66d3d00b1832"
+    uuid: "f15a2e25-6859-4bcc-b4c4-a14bb8ae0fbb"
     udp: true
     tls: true
     skip-cert-verify: true
-    servername: "live.cdnguard.org"
+    servername: "4c980ft.fi15.h1clayd.click"
     client-fingerprint: "firefox"
     reality-opts:
-      public-key: "6nZacX6g09t3m4dVrNOAG0IsiRwEICVT8Qq-wd7G2H8"
-      short-id: "9b2e20557aa8f88a"
+      public-key: "-ZN1kT3JlPFxu1E906JRqLAGoQQucSmL6xPiuAyasTk"
+      short-id: "597e1c279d224774"
     flow: "xtls-rprx-vision"
   - name: "🇫🇮_9"
     type: vless
-    server: "65.109.252.58"
-    port: 443
-    uuid: "2b696acb-1311-4ab7-b832-b376d29dca27"
+    server: "2.29.125.167"
+    port: 8443
+    uuid: "b2505fa2-f7c4-40d2-8c4a-1f6336bd37f1"
     udp: true
     tls: true
     skip-cert-verify: true
-    servername: "static.170.55.238.62.clients.your-server.de"
+    servername: "static.162.97.119.168.clients.your-server.de"
     client-fingerprint: "firefox"
     flow: "xtls-rprx-vision"
   - name: "🇫🇮_10"
-    type: trojan
-    server: "nnnmjju.131.pp.ua"
-    port: 443
-    password: "98b419ef-83a2-4d1b-a23d-566b7f24477b"
-    sni: "nnnmjju.131.pp.ua"
-    skip-cert-verify: true
+    type: vless
+    server: "45.38.143.210"
+    port: 30584
+    uuid: "cebc5f19-18d9-48e6-9029-fb4b04caf393"
     udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "m.vk.com"
+    client-fingerprint: "chrome"
+    reality-opts:
+      public-key: "2hV4TY2ygvQ7ISa5o4u_FUKXzlIhLgbsScE8M1h0m3Y"
+      short-id: "67ece882d65d0f1a"
   - name: "🇫🇮_11"
-    type: trojan
-    server: "d05f4aa7-92b1-a659-e3b9-695dd2870b3c.131.pp.ua"
+    type: vless
+    server: "107.181.151.128"
     port: 443
-    password: "5453ae26-250d-4e79-b4ec-016baf806865"
-    sni: "D05F4aA7-92B1-a659-E3b9-695Dd2870B3c.131.Pp.UA"
-    skip-cert-verify: true
+    uuid: "e5bfbdaf-b48e-492e-ba75-4278c437a0ec"
     udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "www.mozilla.org"
+    client-fingerprint: "chrome"
+    reality-opts:
+      public-key: "zfsjt2A8ur0qHWIuCG7F9W4wZN3VTuL6fkTljC-9R0s"
+      short-id: "6765a8f49c21"
+    flow: "xtls-rprx-vision"
   - name: "🇫🇮_12"
+    type: vless
+    server: "107.181.151.128"
+    port: 443
+    uuid: "88742d38-3f5c-4b9c-b256-7df5db8257ec"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "www.mozilla.org"
+    client-fingerprint: "firefox"
+    reality-opts:
+      public-key: "zfsjt2A8ur0qHWIuCG7F9W4wZN3VTuL6fkTljC-9R0s"
+      short-id: "8f79726c5002"
+    flow: "xtls-rprx-vision"
+  - name: "🇫🇮_13"
+    type: vless
+    server: "45.86.158.53"
+    port: 443
+    uuid: "082ff568-e0f1-42af-ad7c-2c46adde1273"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "4c980ft.fi15.h1clayd.click"
+    client-fingerprint: "firefox"
+    reality-opts:
+      public-key: "-ZN1kT3JlPFxu1E906JRqLAGoQQucSmL6xPiuAyasTk"
+      short-id: "597e1c279d224774"
+    flow: "xtls-rprx-vision"
+  - name: "🇫🇮_14"
+    type: vless
+    server: "179.254.169.116"
+    port: 8443
+    uuid: "c53ea5e9-ed8b-4990-805d-7f1d6451426c"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "durov.sky-vault.top"
+    client-fingerprint: "chrome"
+    reality-opts:
+      public-key: "fSVfR9NB-6J6smrZlavi0GWd8JfDh0aXuEkKbtuFzUI"
+      short-id: "3cbc3d737fb9c4af"
+    flow: "xtls-rprx-vision"
+  - name: "🇫🇮_15"
+    type: vless
+    server: "webdisk.jaggyslawa.org"
+    port: 443
+    uuid: "b62e3646-b84d-443c-9c94-718b646502e0"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "www.foxsports.com"
+    client-fingerprint: "random"
+    reality-opts:
+      public-key: "zfsjt2A8ur0qHWIuCG7F9W4wZN3VTuL6fkTljC-9R0s"
+      short-id: "dda5f542d835"
+    flow: "xtls-rprx-vision"
+  - name: "🇫🇮_16"
     type: trojan
     server: "bbbnhj.131.pp.ua"
     port: 443
@@ -208,7 +271,7 @@ proxies:
     sni: "bbbnhj.131.pp.ua"
     skip-cert-verify: true
     udp: true
-  - name: "🇫🇮_13"
+  - name: "🇫🇮_17"
     type: trojan
     server: "135.181.41.169"
     port: 443
@@ -216,7 +279,7 @@ proxies:
     sni: "nnnmjju.131.pp.ua"
     skip-cert-verify: true
     udp: true
-  - name: "🇫🇮_14"
+  - name: "🇫🇮_18"
     type: trojan
     server: "vvbgh.131.pp.ua"
     port: 443
@@ -224,7 +287,7 @@ proxies:
     sni: "vvbgh.131.pp.ua"
     skip-cert-verify: true
     udp: true
-  - name: "🇫🇮_15"
+  - name: "🇫🇮_19"
     type: trojan
     server: "bbbnnmj.131.pp.ua"
     port: 443
@@ -232,33 +295,62 @@ proxies:
     sni: "bbbnnmj.131.pp.ua"
     skip-cert-verify: true
     udp: true
-  - name: "🇫🇮_16"
+  - name: "🇫🇮_20"
+    type: trojan
+    server: "nnnmjju.131.pp.ua"
+    port: 443
+    password: "98b419ef-83a2-4d1b-a23d-566b7f24477b"
+    sni: "nnnmjju.131.pp.ua"
+    skip-cert-verify: true
+    udp: true
+  - name: "🇫🇮_21"
     type: ss
     server: "213.176.92.148"
     port: 40647
     cipher: "aes-256-gcm"
     password: "DgMywXKqojHXeuXY8hOJaYGPFcjweCIJeD5cdg/cUUY="
     udp: true
-  - name: "🇫🇮_17"
+  - name: "🇫🇮_22"
+    type: ss
+    server: "2.29.210.28"
+    port: 25565
+    cipher: "chacha20-ietf-poly1305"
+    password: "C8ZJ7R4p_HHJ32cst7ilT-0Zi2F22hAc"
+    udp: true
+  - name: "🇫🇮_23"
     type: ss
     server: "static.28.210.29.2.clients.your-server.de"
     port: 25565
     cipher: "chacha20-ietf-poly1305"
     password: "C8ZJ7R4p_HHJ32cst7ilT-0Zi2F22hAc"
     udp: true
-  - name: "🇫🇮_18"
+  - name: "🇫🇮_24"
     type: ss
     server: "static.28.210.29.2.clients.your-server.de"
     port: 25565
     cipher: "chacha20-ietf-poly1305"
     password: "C8ZJ7R4p_HHJ32cst7ilT-0Zi2F22hAc"
     udp: true
-  - name: "🇫🇮_19"
+  - name: "🇫🇮_25"
     type: ss
     server: "213.176.92.148"
     port: 40647
     cipher: "aes-256-gcm"
     password: "DgMywXKqojHXeuXY8hOJaYGPFcjweCIJeD5cdg/cUUY="
+    udp: true
+  - name: "🇫🇮_26"
+    type: ss
+    server: "2.29.210.28"
+    port: 25565
+    cipher: "chacha20-ietf-poly1305"
+    password: "C8ZJ7R4p_HHJ32cst7ilT-0Zi2F22hAc"
+    udp: true
+  - name: "🇫🇮_27"
+    type: ss
+    server: "static.28.210.29.2.clients.your-server.de"
+    port: 25565
+    cipher: "chacha20-ietf-poly1305"
+    password: "C8ZJ7R4p_HHJ32cst7ilT-0Zi2F22hAc"
     udp: true
 
 proxy-groups:
@@ -295,6 +387,14 @@ proxy-groups:
       - "🇫🇮_17"
       - "🇫🇮_18"
       - "🇫🇮_19"
+      - "🇫🇮_20"
+      - "🇫🇮_21"
+      - "🇫🇮_22"
+      - "🇫🇮_23"
+      - "🇫🇮_24"
+      - "🇫🇮_25"
+      - "🇫🇮_26"
+      - "🇫🇮_27"
 
 
   - name: "Load Balance"
@@ -322,6 +422,14 @@ proxy-groups:
       - "🇫🇮_17"
       - "🇫🇮_18"
       - "🇫🇮_19"
+      - "🇫🇮_20"
+      - "🇫🇮_21"
+      - "🇫🇮_22"
+      - "🇫🇮_23"
+      - "🇫🇮_24"
+      - "🇫🇮_25"
+      - "🇫🇮_26"
+      - "🇫🇮_27"
 
 rules:
   - MATCH,PROXY

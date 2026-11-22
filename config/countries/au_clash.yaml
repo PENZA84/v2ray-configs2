@@ -75,26 +75,26 @@ proxies:
       short-id: "3611e663b53177f2"
   - name: "🇦🇺_2"
     type: trojan
-    server: "193.187.119.75"
+    server: "au-1.tr202604.com"
     port: 443
-    password: "owreRY1bmquS1WcYN2"
-    sni: "au-3.tr202605.com"
+    password: "q6UYkw9nUn6MYZz8Sp"
+    sni: "au-1.tr202604.com"
     skip-cert-verify: true
     udp: true
   - name: "🇦🇺_3"
-    type: trojan
-    server: "45.63.30.142"
-    port: 443
-    password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
-    sni: "connectwithemployerstohireyouridealteam.com"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇦🇺_4"
     type: trojan
     server: "168.138.13.201"
     port: 443
     password: "Aimer"
     sni: "epmo.ambercc.filegear-sg.me"
+    skip-cert-verify: true
+    udp: true
+  - name: "🇦🇺_4"
+    type: trojan
+    server: "193.187.119.41"
+    port: 443
+    password: "owreRY1bmquS1WcYN2"
+    sni: "193.187.119.41"
     skip-cert-verify: true
     udp: true
   - name: "🇦🇺_5"
@@ -107,29 +107,13 @@ proxies:
     udp: true
   - name: "🇦🇺_6"
     type: trojan
-    server: "194.195.254.50"
+    server: "scarily.golfland.club"
     port: 443
-    password: "ef81a036-1db9-45ed-a3aa-f932a4750066"
-    sni: "cdn.qchwnd.moe"
+    password: "F9D3CpxDl8a3ezeZNSBSAa2RcZNSBSAa2RcY8IyagD67Yn3S30ZTElRj4wFX5On3S30ZT"
+    sni: "scarily.golfland.club"
     skip-cert-verify: true
     udp: true
   - name: "🇦🇺_7"
-    type: trojan
-    server: "103.224.212.217"
-    port: 443
-    password: "b379fd8e-75c6-4bd6-8a5b-88f3e64bb3fa"
-    sni: "dl.kgvn.garenanow.com"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇦🇺_8"
-    type: trojan
-    server: "au-3.tr202605.com"
-    port: 443
-    password: "owreRY1bmquS1WcYN2"
-    sni: "au-3.tr202605.com"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇦🇺_9"
     type: trojan
     server: "au-3.tr202604.com"
     port: 443
@@ -137,12 +121,28 @@ proxies:
     sni: "au-3.tr202604.com"
     skip-cert-verify: true
     udp: true
+  - name: "🇦🇺_8"
+    type: trojan
+    server: "au-1.tr202613.com"
+    port: 443
+    password: "2ni2H9zUKdDCjREL8Z"
+    sni: "au-1.tr202613.com"
+    skip-cert-verify: true
+    udp: true
+  - name: "🇦🇺_9"
+    type: trojan
+    server: "au-3.tr202605.com"
+    port: 443
+    password: "owreRY1bmquS1WcYN2"
+    sni: "au-3.tr202605.com"
+    skip-cert-verify: true
+    udp: true
   - name: "🇦🇺_10"
     type: trojan
-    server: "103.106.231.55"
+    server: "193.187.119.75"
     port: 443
-    password: "3828095943467868160"
-    sni: "closing-longhorn.dolphin109.quest"
+    password: "owreRY1bmquS1WcYN2"
+    sni: "au-3.tr202605.com"
     skip-cert-verify: true
     udp: true
   - name: "🇦🇺_11"
@@ -155,39 +155,20 @@ proxies:
     udp: true
   - name: "🇦🇺_12"
     type: trojan
-    server: "193.187.119.41"
+    server: "194.195.254.50"
     port: 443
-    password: "owreRY1bmquS1WcYN2"
-    sni: "193.187.119.41"
+    password: "ef81a036-1db9-45ed-a3aa-f932a4750066"
+    sni: "cdn.qchwnd.moe"
     skip-cert-verify: true
     udp: true
   - name: "🇦🇺_13"
     type: trojan
-    server: "au-1.tr202604.com"
+    server: "45.63.30.142"
     port: 443
-    password: "q6UYkw9nUn6MYZz8Sp"
-    sni: "au-1.tr202604.com"
+    password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
+    sni: "connectwithemployerstohireyouridealteam.com"
     skip-cert-verify: true
     udp: true
-  - name: "🇦🇺_14"
-    type: trojan
-    server: "au-1.tr202613.com"
-    port: 443
-    password: "2ni2H9zUKdDCjREL8Z"
-    sni: "au-1.tr202613.com"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇦🇺_15"
-    type: vmess
-    server: "185.177.229.95"
-    port: 1270
-    uuid: "5c040f1d-45db-43bd-8d46-e4950e433735"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "xmfhlpy.com"
 
 proxy-groups:
   - name: "PROXY"
@@ -217,8 +198,6 @@ proxy-groups:
       - "🇦🇺_11"
       - "🇦🇺_12"
       - "🇦🇺_13"
-      - "🇦🇺_14"
-      - "🇦🇺_15"
 
 
   - name: "Load Balance"
@@ -240,8 +219,6 @@ proxy-groups:
       - "🇦🇺_11"
       - "🇦🇺_12"
       - "🇦🇺_13"
-      - "🇦🇺_14"
-      - "🇦🇺_15"
 
 rules:
   - MATCH,PROXY

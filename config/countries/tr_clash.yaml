@@ -62,17 +62,17 @@ dns:
 proxies:
   - name: "🇹🇷_1"
     type: vless
-    server: "185.71.216.177"
-    port: 2089
-    uuid: "e1eaef08-e4ff-4843-9926-c0c84a034bad"
+    server: "37.221.76.116"
+    port: 2090
+    uuid: "f131d292-d3c2-42b3-bcea-f9712c31b303"
     udp: true
     tls: true
     skip-cert-verify: true
     servername: "www.apple.com"
     client-fingerprint: "chrome"
     reality-opts:
-      public-key: "oRmj7gTi5H2oIClNYxxgOjqp8-j5kFYtGFU8CNuMj34"
-      short-id: "deccc6fac1ddb0ff"
+      public-key: "qBobe6KSNkFLqTPCffcJo0nXgxy-3JKru9WRqY9rkjk"
+      short-id: "bb472a184677af64"
     flow: "xtls-rprx-vision"
   - name: "🇹🇷_2"
     type: vless
@@ -91,18 +91,32 @@ proxies:
   - name: "🇹🇷_3"
     type: vless
     server: "185.71.216.94"
-    port: 2089
-    uuid: "e1eaef08-e4ff-4843-9926-c0c84a034bad"
+    port: 2194
+    uuid: "128bd8ad-4f6c-4d70-af13-15a2cec331d2"
     udp: true
     tls: true
     skip-cert-verify: true
     servername: "www.apple.com"
     client-fingerprint: "chrome"
     reality-opts:
-      public-key: "oRmj7gTi5H2oIClNYxxgOjqp8-j5kFYtGFU8CNuMj34"
-      short-id: "deccc6fac1ddb0ff"
+      public-key: "jHtC6ayzhkd_GVNF5TIGPu9iVpqUltBAQj1dpGJHwxs"
+      short-id: "55986a94e2228791"
     flow: "xtls-rprx-vision"
   - name: "🇹🇷_4"
+    type: vless
+    server: "185.71.216.177"
+    port: 2091
+    uuid: "c4d6567e-c46e-410f-95ab-ac3a61e030f3"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "www.apple.com"
+    client-fingerprint: "chrome"
+    reality-opts:
+      public-key: "1N6AW5YuEwBoYcZK5KuugDzBHsa0NKZMT8QI-EmyL0k"
+      short-id: "08a4b1f473932632"
+    flow: "xtls-rprx-vision"
+  - name: "🇹🇷_5"
     type: vless
     server: "185.246.155.91"
     port: 10103
@@ -115,21 +129,79 @@ proxies:
       public-key: "obQkp5VlQpnlt1hRLQ3VfHISYiiISZJyJZAMaIdjCko"
       short-id: "6859f5b59e55aa30"
     flow: "xtls-rprx-vision"
-  - name: "🇹🇷_5"
-    type: vless
-    server: "87.76.154.28"
-    port: 57231
-    uuid: "c34a41b6-598f-46ac-bea3-8b39a906f922"
-    udp: true
   - name: "🇹🇷_6"
-    type: trojan
-    server: "subtu.charsoulink3.ir"
-    port: 2087
-    password: "v2whz6ahmyy2f84j"
-    sni: "pus.mmdaqaorg2.ir"
-    skip-cert-verify: true
+    type: vless
+    server: "37.221.76.116"
+    port: 2092
+    uuid: "ca21222b-caf1-4418-b404-345ea713daa4"
     udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "www.apple.com"
+    client-fingerprint: "chrome"
+    reality-opts:
+      public-key: "zeyIqmHylDrPbbtdG9BleBt0-fqKCHpZ0OZ9OY2_WUI"
+      short-id: "716b7eba38125f3a"
+    flow: "xtls-rprx-vision"
   - name: "🇹🇷_7"
+    type: vless
+    server: "185.71.216.95"
+    port: 2093
+    uuid: "8b7a8f61-74c0-491f-bbba-ea153edb1a4b"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "www.apple.com"
+    client-fingerprint: "chrome"
+    reality-opts:
+      public-key: "C_GA8wVjeLmyqLK6em5OHn4WPlsbndA-RyvyNU1aGFM"
+      short-id: "8a9725533854a7e8"
+    flow: "xtls-rprx-vision"
+  - name: "🇹🇷_8"
+    type: vless
+    server: "leviko-tr3862.shopingggg.ir"
+    port: 2092
+    uuid: "ca21222b-caf1-4418-b404-345ea713daa4"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "www.apple.com"
+    client-fingerprint: "chrome"
+    reality-opts:
+      public-key: "zeyIqmHylDrPbbtdG9BleBt0-fqKCHpZ0OZ9OY2_WUI"
+      short-id: "716b7eba38125f3a"
+    flow: "xtls-rprx-vision"
+  - name: "🇹🇷_9"
+    type: vless
+    server: "37.221.76.116"
+    port: 2089
+    uuid: "e1eaef08-e4ff-4843-9926-c0c84a034bad"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "www.apple.com"
+    client-fingerprint: "chrome"
+    reality-opts:
+      public-key: "oRmj7gTi5H2oIClNYxxgOjqp8-j5kFYtGFU8CNuMj34"
+      short-id: "deccc6fac1ddb0ff"
+    flow: "xtls-rprx-vision"
+  - name: "🇹🇷_10"
+    type: vless
+    server: "153.56.230.6"
+    port: 443
+    uuid: "cda0862a-0f87-4be9-8ed8-1d0c9e382839"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "0592efg.us8.h1clayd.click"
+    client-fingerprint: "edge"
+    reality-opts:
+      public-key: "cO3wYHISTeorXcM8ffaDCDdqZ-olBQL-GyZqb-W7rTk"
+      short-id: "bd8f712209a9c283"
+    network: grpc
+    grpc-opts:
+      grpc-service-name: "99f2107b03f8"
+  - name: "🇹🇷_11"
     type: trojan
     server: "194.87.39.133"
     port: 443
@@ -137,7 +209,15 @@ proxies:
     sni: "194.87.39.133"
     skip-cert-verify: true
     udp: true
-  - name: "🇹🇷_8"
+  - name: "🇹🇷_12"
+    type: trojan
+    server: "subtu.charsoulink3.ir"
+    port: 2087
+    password: "v2whz6ahmyy2f84j"
+    sni: "pus.mmdaqaorg2.ir"
+    skip-cert-verify: true
+    udp: true
+  - name: "🇹🇷_13"
     type: trojan
     server: "194.146.26.40"
     port: 443
@@ -169,6 +249,11 @@ proxy-groups:
       - "🇹🇷_6"
       - "🇹🇷_7"
       - "🇹🇷_8"
+      - "🇹🇷_9"
+      - "🇹🇷_10"
+      - "🇹🇷_11"
+      - "🇹🇷_12"
+      - "🇹🇷_13"
 
 
   - name: "Load Balance"
@@ -185,6 +270,11 @@ proxy-groups:
       - "🇹🇷_6"
       - "🇹🇷_7"
       - "🇹🇷_8"
+      - "🇹🇷_9"
+      - "🇹🇷_10"
+      - "🇹🇷_11"
+      - "🇹🇷_12"
+      - "🇹🇷_13"
 
 rules:
   - MATCH,PROXY
